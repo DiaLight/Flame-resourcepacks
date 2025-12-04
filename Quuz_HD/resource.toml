@@ -1,0 +1,9 @@
+[resource]
+name = "HD textures"
+version = ""
+authors = "Quuz"
+description = """
+Texture pack contain pseudo HD textures for creatures and objects
+Pseudo because they don't increase the resolution of the textures (the game engine doesn't allow it), but they've been photoshopped for clarity and detail
+contains textures of objects and creatures
+"""

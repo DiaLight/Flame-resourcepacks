@@ -1,0 +1,8 @@
+[resource]
+name = "Maps fixes"
+version = ""
+authors = ""
+description = """
+Dungeon Keeper 2 version 1.7 (which included the GOG and EA ORIGIN editions) comes with an issue that on many levels the correct creatures do not come from the portal anymore. For example you will no longer attract Dark Angels during the campaign
+"""
+url = "https://keeperklan.com/downloads.php?do=file&id=141"

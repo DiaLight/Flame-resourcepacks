@@ -1,0 +1,11 @@
+[resource]
+name = "Full HD textures"
+version = ""
+authors = "Quuz"
+description = """
+Texture pack contain pseudo HD textures for creatures and objects
+Pseudo because they don't increase the resolution of the textures (the game engine doesn't allow it), but they've been photoshopped for clarity and detail
+Contains textures of objects,creatures, floor, interface
+Beware, textures can slow down the game a lot, as they are not optimised
+Use only if you are confident in your pc
+"""

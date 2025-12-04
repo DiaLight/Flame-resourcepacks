@@ -1,0 +1,11 @@
+[resource]
+name = "Audio fixes"
+version = ""
+authors = "Quuz"
+description = """
+Creature_maidenSFX.map and MaidenHW.sdt fix Maiden sounds. In the original game, her sounds are bugged and not controlled by the overall volume level in the settings, and the sound files are in wav format, not mp2 as they should be. It's fixed. 
+
+FairyHW.sdt The sound of fairies flying with some chance can loop, which is only cured by rebooting. Fixes the situation by muting this sound.
+
+LibraryHW.sdt When mages shoot in the library the sound of book pages can loop, which can only be cured by rebooting. Fixes the situation by silencing this sound.
+"""

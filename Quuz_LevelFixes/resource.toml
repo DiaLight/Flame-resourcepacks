@@ -1,0 +1,30 @@
+[resource]
+name = "Maps fixes"
+version = ""
+authors = "Quuz"
+description = """
+The game stores some of the data in the map files themselves. Therefore, some fixes cannot be fixed except by editing the maps themselves with Hex.
+Data\\editor\\maps contains all original campaign and battle maps with the fixes described below.
+The files in the Data\\editor directory will allow you to create maps with fixes using the editor.
+However, any custom maps will not be affected by these changes.
+
+List of changes:
+-Removes the function of model degradation when the camera moves away for all objects, all traps, all creatures. You will no longer see a fly without wings, or a goblin without a sword.  Think of it as a graphical improvement.
+-Returns cut animations for the King, Lord, and Mistresses. 
+-Fixes incorrect requirement messages for unique warlock, unique rogue, unique angel 
+-Warlocks can no longer heal enemies
+-Fixes visual bug of invulnerability spell.
+-Changes the movement speeds of bile demon, giant and knight, fixing the bug where they can't destroy a barricade but just run endlessly at it. 
+-reduces the life of chickens, creatures will no longer get stuck in the walls of the coop.
+-Elite vampire is now as fearless as a normal vampire or other undead.
+-At campaign level 15, heroes have had their erroneous "Guardian Sentry Traps" replaced with "Hero Sentry Traps"
+-fixed a bug where a level 4 creatures get more mana that higher level units
+-Reduced abnormal running and attack speed when using possessions.
+-the lost cloud effect for gas traps has been returned
+-Lord, Princes and King can now correctly create a bed in the lair.
+-fixed the model of `hero gate table` object
+-fixed the model of `piranha` pbject
+-Reduced annoying alarm sounds. Increased the cooldown of alarm traps from 1 second to 20. The effect of the alarm skull remains.
+-Maiden is added to the pool and comes from Portal, for campaign levels where Temple is available.
+-Maiden and Jack Traps are available for all skirmish maps
+"""
